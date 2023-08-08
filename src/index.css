@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -8,6 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1.5rem 1rem;
 }
 
 .navLogo {
@@ -17,5 +20,52 @@
 }
 .navLogo p {
   color: white;
-  font-family: "Karla";
+  font-family: "Karla",sans-serif;
+  font-size: 1.5rem;
+}
+
+.navCont .navProject {
+  color: white;
+  font-family: "Inter",sans-serif;
+  font-weight: 200;
+}
+
+
+.inputCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.inputBox {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+input {
+  padding: 0.75rem 0.5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.5rem;
+  width: 50%;
+  color: black;
+}
+
+.inputBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.75rem 0.5rem;
+  border: 0.1rem solid rgba(0,0,0,0.3);
+  border-radius: 0.5rem;
+  background-image: linear-gradient(to right , #672280 , #A626D3 );
+  font-family: "Karla",sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.1rem;
 }

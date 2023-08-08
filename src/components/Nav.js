@@ -7,7 +7,7 @@ const Nav = () => {
                 <img src="/images/logo.png" alt="Logo" />
                 <p>Meme Generator</p>
             </div>
-            <p>React course - project 5 </p>
+            <p className="navProject">React course - project 5 </p>
         </div>
     );
 }
