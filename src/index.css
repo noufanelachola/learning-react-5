@@ -68,4 +68,38 @@ input {
   font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: -0.1rem;
+  cursor: pointer;
+}
+.inputBtn:hover {
+  transform: scale(1.005);
+}
+
+.meme {
+  width: auto;
+  height: 60vh;
+  /* max-height: 60vh; */
+  position: relative;
+}
+.memeImage{
+  margin: 0 auto;
+  max-width: 100%;
+  height: 100%;
+}
+.memeText {
+  position: absolute;
+  /* left: 50%;
+  transform: translateX(-50%); */
+  font-family: "Poppins",sans-serif;
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.memeText.memeText-top{
+  top: 1rem;
+}
+
+.memeText.memeText-bottom{
+  bottom: 1rem;
 }
